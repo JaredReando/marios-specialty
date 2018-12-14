@@ -1,0 +1,15 @@
+<%= form_for [@product, @review] do |form| %>
+  <p>
+    <%= form.label :text %><br>
+    <%= form.text_field :text %>
+  </p>
+
+  <p>
+    <%= form.label :rating %><br>
+    <%= form.text_field :rating %>
+  </p>
+
+  <p>
+    <%= form.submit %>
+  </p>
+<% end %>

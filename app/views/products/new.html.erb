@@ -2,11 +2,3 @@
 <p>Find me in app/views/products/new.html.erb</p>
 
 <%= render 'form'%>
-
-<% if @products.any? %>
-<h4>Products:</h4>
-<ul>
-<% @products.each do |product|%>
-  <li><%= product.name %></li>
-<% end %>
-</ul>
